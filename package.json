@@ -1,0 +1,27 @@
+{
+  "name": "facturacionelectronicapy-pkcs12",
+  "version": "1.0.6",
+  "description": "Librería para firma de documentos XML con DSIG",
+  "main": "./lib/dsig",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TIPS-SA/facturacionelectronicapy-pkcs12"
+  },
+  "keywords": [
+    "pkcs12",
+    "xml"
+  ],
+  "author": "ADSIB",
+  "maintainers": [
+    "adrianjara@gmail.com"
+  ],
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "node-forge": "^1.3.1",
+    "ocsp": "^1.2.0",
+    "xml-js": "^1.6.11"
+  }
+}
