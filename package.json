@@ -4,7 +4,8 @@
   "description": "Librería para firma de documentos XML con DSIG",
   "main": "./lib/dsig",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "build": "tsc && copyfiles --up 1 src/**/*.class dist"
   },
   "repository": {
     "type": "git",
